@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+#timer {
+  font-size: 72px;
+  margin-top: 30px;
+}
+
+#lapTimer {
+  font-size: 32px;
+  color: #666;
+  margin-top: 10px;
+}
+
+#splitList, #lapList {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#splitList li, #lapList li {
+  margin-bottom: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #286090;
+}
+
+button:active {
+  background-color: #1b4c82;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.timer-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timer-label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.timer-label + div {
+  margin-top: 10px;
+}
+
+.timer-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.timer-buttons button {
+  margin: 0 10px;
+}
+
+.timer-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
